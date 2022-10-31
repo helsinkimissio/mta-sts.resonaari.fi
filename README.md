@@ -1,7 +1,7 @@
 # MTA STS Policy
 
 | Tag | Value |
-[ --- | --- |
+| --- | --- |
 | version | STSv1 |
 | mode | testing |
 | mx | resonaari-fi.mail.protection.outlook.com |
