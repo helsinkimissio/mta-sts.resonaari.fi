@@ -5,7 +5,7 @@ Resonaari.fi's SMTP MTA Strict Transport Security Policy adds a security layer b
 | Tag | Value |
 | --- | --- |
 | version | STSv1 |
-| mode | testing |
+| mode | enforce |
 | mx | resonaari-fi.mail.protection.outlook.com |
 | max_age | 86400 |
 
@@ -21,11 +21,11 @@ resonaari.fi mail is handled by 50 resonaari-fi.mail.protection.outlook.com.
 | Tag | Value |
 | --- | --- |
 | v | STSv1 |
-| id | 202210310725 |
+| id | 202211020844 |
 
 The id tag value should be updated on each policy change. The current value can be resolved using the command:
 
 ```
 % host -t TXT _mta-sts.resonaari.fi
-_mta-sts.resonaari.fi descriptive text "v=STSv1; id=202210310725;"
+_mta-sts.resonaari.fi descriptive text "v=STSv1; id=202211020844;"
 ```
